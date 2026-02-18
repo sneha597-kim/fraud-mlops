@@ -1,1 +1,17 @@
+# Ignore raw and processed datasets
+data/raw/*.csv
+data/processed/*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env
+
+# Model artifacts (optional, but recommended)
+models/*.pkl
+
+/stream.csv
 /baseline.csv
